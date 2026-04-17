@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import "tailwindcss";
+:root {
+  --background: #f8f6e8;
+  --primary: #0d542b;
+}
+@theme {
+  --font-lora: "Lora", serif;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+}
