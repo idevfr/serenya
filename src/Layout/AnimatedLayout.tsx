@@ -10,8 +10,9 @@ function AnimatedLayout({
   return (
     <motion.div
       initial={{ y: 40, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
       className={className || ""}
     >
       {children}
