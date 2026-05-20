@@ -43,7 +43,7 @@ function FeaturesCTA() {
             alt="image of women breathing and smiling"
           />
           <img
-            className="hidden w-[80%] rounded-2xl md:block md:-translate-x-72 md:-translate-y-20"
+            className="z-10 hidden w-[80%] rounded-2xl md:block md:-translate-x-72 md:-translate-y-20"
             src={image2}
             alt="image of women breathing and smiling"
           />

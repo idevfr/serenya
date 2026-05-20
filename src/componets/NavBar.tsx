@@ -19,12 +19,11 @@ function NavBar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [navHeight]);
-  console.log(navHeight);
   return (
     <>
       <nav
         ref={navRef}
-        className={`${isScrolled ? "sticky bg-transparent shadow-xl backdrop-blur-sm" : "relative"} top-0 flex max-w-screen items-center justify-between px-4 py-2 transition-all duration-300 sm:px-10 sm:py-6`}
+        className={`${isScrolled ? "sticky bg-transparent shadow-xl backdrop-blur-sm" : "relative"} top-0 z-50 flex max-w-screen items-center justify-between px-4 py-2 transition-all duration-300 sm:px-10 sm:py-6`}
       >
         <motion.div
           initial={{ x: -100, opacity: 0 }}
