@@ -118,7 +118,7 @@ function CustomerReview() {
                 return (
                   <CarouselItem
                     key={i}
-                    className="basis-[100%] pl-4 sm:basis-[45%] lg:basis-[30%]"
+                    className="basis-full pl-4 sm:basis-[80%] lg:basis-[30%]"
                   >
                     <ReveiewCard item={item} />
                   </CarouselItem>

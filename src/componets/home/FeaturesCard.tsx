@@ -42,7 +42,7 @@ function FeaturesCard() {
       initial="initial"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
-      className="flex flex-col items-center justify-between gap-6 text-white md:flex-row md:gap-0"
+      className="flex flex-col items-center justify-between gap-6 text-white sm:gap-2 md:flex-row lg:gap-0"
     >
       {items.map((i) => (
         <FeatureCardItem

@@ -89,7 +89,7 @@ function Faq() {
               })}
             </ul>
           </div>
-          <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between md:gap-0 md:px-10">
+          <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between md:gap-0 lg:px-10">
             <p className="text-center text-gray-600">
               Can't find the answer you're looking for? Please chat to our
               friendly team.

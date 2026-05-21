@@ -7,7 +7,7 @@ import growthIcon from "../../assets/icons/growthIcon.svg";
 import wellnessIcon from "../../assets/icons/wellnessIcon.svg";
 function FeaturesItems() {
   return (
-    <div className="grid w-full grid-cols-1 place-items-center justify-between p-10 md:grid-cols-3 md:gap-y-20">
+    <div className="grid w-full grid-cols-1 place-items-center justify-between p-10 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3 lg:gap-y-20">
       <FeaturesItem
         icon={mindfulnessIcon}
         title="Mindfulness"

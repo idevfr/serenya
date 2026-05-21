@@ -6,7 +6,7 @@ import AnimatedLayout from "../../Layout/AnimatedLayout";
 function FeaturesCTA() {
   return (
     <AnimatedLayout>
-      <div className="flex w-full flex-col items-center justify-between gap-20 md:flex-row">
+      <div className="flex w-full flex-col items-center justify-between gap-20 lg:flex-row">
         <div className="h-full w-full space-y-10">
           <h1 className="font-lora text-4xl/relaxed italic">
             Your Safe Space for Calm & Clarity
@@ -43,7 +43,7 @@ function FeaturesCTA() {
             alt="image of women breathing and smiling"
           />
           <img
-            className="z-10 hidden w-[80%] rounded-2xl md:block md:-translate-x-72 md:-translate-y-20"
+            className="z-10 hidden w-[80%] rounded-2xl md:-translate-x-72 md:-translate-y-20 lg:block"
             src={image2}
             alt="image of women breathing and smiling"
           />
