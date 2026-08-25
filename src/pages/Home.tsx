@@ -1,3 +1,4 @@
+import Cta from "@/componets/home/Cta";
 import CustomerReview from "../componets/home/CustomerReview";
 import Faq from "../componets/home/Faq";
 import Features from "../componets/home/Features";
@@ -8,6 +9,7 @@ function Home() {
     <>
       <Hero />
       <Features />
+      <Cta />
       <CustomerReview />
       <Faq />
     </>
